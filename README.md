@@ -1,3 +1,4 @@
+# DIAGNAL WORKSHOP
 Deploy from Local Machine to AWS using serverless framework
 Clone the Workshop project in to local
 ```
@@ -39,21 +40,21 @@ layers:
   None
 ```
 
-###API
+## API
 
 Use endpoints `https://abc.execute-api.us-east-1.amazonaws.com/dev/` to access API
 
 
-###To Add Item to DB table use API
+### To Add Item to DB table use API
 
-`https://abc.execute-api.us-east-1.amazonaws.com/dev/` and method *POST*
-
-
-###To Get all list of Item from DB table use API
-
-`https://abc.execute-api.us-east-1.amazonaws.com/dev/mobile` and method *GET*
+`https://abc.execute-api.us-east-1.amazonaws.com/dev/` and method **POST**
 
 
-###To Get specific Item from DB table use API(get Id from above API)
+### To Get all list of Item from DB table use API
 
-`https://abc.execute-api.us-east-1.amazonaws.com/dev/mobile/{ID}` and method *GET*
+`https://abc.execute-api.us-east-1.amazonaws.com/dev/mobile` and method **GET**
+
+
+### To Get specific Item from DB table use API(get Id from above API)
+
+`https://abc.execute-api.us-east-1.amazonaws.com/dev/mobile/{ID}` and method **GET**
