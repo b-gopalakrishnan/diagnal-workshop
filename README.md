@@ -1,6 +1,6 @@
 # DIAGNAL WORKSHOP
 Deploy from Local Machine to AWS using serverless framework
-Clone the Workshop project in to local
+Clone the Workshop project in to local and run this to install nom
 ```
 npm i
 ```
@@ -17,7 +17,8 @@ Create DynamoDB table by run this command from local
 node ddb_createTables.js
 ```
 This will create a table in DynamoDB "ELECTRONICS"
-To Deploy to Lambda
+
+To Deploy to Lambda, run below command
 ```
 serverless deploy
 ```
@@ -45,9 +46,9 @@ layers:
 Use endpoints `https://abc.execute-api.us-east-1.amazonaws.com/dev/` to access API
 
 
-### To Add Item to DB table use API
+### To Add Item to DB table use API(it will add an item by each request)
 
-`https://abc.execute-api.us-east-1.amazonaws.com/dev/` and method **POST**
+`https://abc.execute-api.us-east-1.amazonaws.com/dev/mobile` and method **POST**
 
 
 ### To Get all list of Item from DB table use API
