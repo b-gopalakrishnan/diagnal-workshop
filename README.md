@@ -4,7 +4,7 @@ Clone the Workshop project in to local
 ```
 npm i
 ```
-Open cmd and check the AWS Configuration
+Open cmd and check the AWS Configuration, update the config
 ```
 aws configure
 ```
@@ -17,6 +17,7 @@ Create DynamoDB table by run this command from local
 node ddb_createTables.js
 ```
 This will create a table in DynamoDB "ELECTRONICS"
+
 To Deploy to Lambda
 ```
 serverless deploy
@@ -45,9 +46,9 @@ layers:
 Use endpoints `https://abc.execute-api.us-east-1.amazonaws.com/dev/` to access API
 
 
-### To Add Item to DB table use API
+### To Add Item to DB table use API(each request it will add an item from backend)
 
-`https://abc.execute-api.us-east-1.amazonaws.com/dev/` and method **POST**
+`https://abc.execute-api.us-east-1.amazonaws.com/dev/mobile` and method **POST**
 
 
 ### To Get all list of Item from DB table use API
